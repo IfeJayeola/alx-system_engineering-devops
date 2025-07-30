@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -F .. | grep -c '/$'
+ls -F $PATH | grep -c '/$'
